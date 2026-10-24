@@ -1,0 +1,21 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Git metadata
+.git/
+
+# Word temporary and lock files
+~$*.doc
+~$*.docx
+
+# Private keys and certificates
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Logs and temporary files
+*.log
+*.tmp
